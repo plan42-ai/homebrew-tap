@@ -1,17 +1,17 @@
 class Plan42 < Formula
   desc "CLI for Plan42.ai"
   homepage "https://github.com/plan42-ai/cli"
-  version "1.0.7"
+  version "1.0.8"
 
   on_macos do
     on_arm do
       url "https://github.com/plan42-ai/cli/releases/download/v#{version}/plan42-#{version}-macos-arm64.tgz"
-      sha256 "0396306238f8888f759b6ce4c0e95c81aaed2cf826811bc6b8b8a727ba6ae94f"
+      sha256 "e687c1d10a320d4745102f42f8404c1015b8296b3d83ab8e28c049efbb50824d"
     end
 
     on_intel do
       url "https://github.com/plan42-ai/cli/releases/download/v#{version}/plan42-#{version}-macos-x86_64.tgz"
-      sha256 "7c6f5f789913967c8c7f5e1286828d919ab3ba030ebe7e882b3f128e27cb7556"
+      sha256 "7c8bfc60931e155f46034b40e2a3372898c5b1c0cd538edc56d2eb4c5a505d82"
     end
   end
 
