@@ -1,7 +1,7 @@
 class Plan42 < Formula
   desc "CLI for Plan42.ai"
   homepage "https://github.com/plan42-ai/cli"
-  version "1.0.10"
+  version "1.0.19"
 
   depends_on arch: :arm64
   depends_on macos: :tahoe
@@ -9,7 +9,7 @@ class Plan42 < Formula
   on_macos do
     on_arm do
       url "https://github.com/plan42-ai/cli/releases/download/v#{version}/plan42-#{version}-macos-arm64.tgz"
-      sha256 "aa593e83733c95ae3dfa2ec7954d02eefd45e59abef79a74acf49133583291d0"
+      sha256 "c1543e75b46effeff5fe07eb6266a10c07b37ee300e14fe75473a7bd2f64bdda"
     end
   end
 
