@@ -9,7 +9,7 @@ class Plan42 < Formula
   on_macos do
     on_arm do
       url "https://github.com/plan42-ai/cli/releases/download/v#{version}/plan42-#{version}-macos-arm64.tgz"
-      sha256 "4d1702786c32e8122ff25a47d08e5bbf6438855bd4cc9913df68ce9d2a8305d9"
+      sha256 "9f2005c935ddc36b5d27d76f087c24073b8673cb749227fb4554720fb267b33f"
     end
   end
 
